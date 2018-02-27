@@ -1,17 +1,13 @@
 language: go
 
 go:
-  - 1.6
-  - 1.7
-  - 1.8
-  - tip
+  - "1.10"
 env:
   - LIBWEBP_VERSION="0.4.1"
   - LIBWEBP_VERSION="0.4.2"
   - LIBWEBP_VERSION="0.4.3"
   - LIBWEBP_VERSION="0.5.0"
   - LIBWEBP_VERSION="0.5.1"
-
 
 cache:
   directories:
