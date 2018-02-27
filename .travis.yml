@@ -16,7 +16,7 @@ sudo: false
 
 before_install:
   - LIBWEBP_PREFIX=$HOME/cache/libwebp-${LIBWEBP_VERSION} make libwebp
-  - cd $HOME/gopath/src/github.com/harukasan/go-libwebp
+  - cd $HOME/gopath/src/github.com/yaminoma/go-libwebp
   - export CGO_CFLAGS="-I $HOME/cache/libwebp-${LIBWEBP_VERSION}/include"
   - export CGO_LDFLAGS="-L $HOME/cache/libwebp-${LIBWEBP_VERSION}/lib"
   - export LD_LIBRARY_PATH=$HOME/cache/libwebp-${LIBWEBP_VERSION}/lib:$LD_LIBRARY_PATH
